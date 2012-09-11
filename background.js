@@ -26,7 +26,7 @@ window.setInterval(function() {
 
 	cur = "";
 	chrome.windows.getCurrent(function(w) {
-		if (w.focused()) {
+		if (w.focused) {
 			chrome.tabs.query({
 				"active" : true,
 				"windowId" : chrome.windows.WINDOW_ID_CURRENT
