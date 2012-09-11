@@ -23,7 +23,7 @@ window.setInterval(function() {
     cnt++;
 
     cur="";
-    chrome.tabs.query({"active":true},function(t){
+    chrome.tabs.query({"active":true,"windowId":chrome.windows.WINDOW_ID_CURRENT},function(t){
         if(typeof t !="undefined")
     {
         var hdb={};
