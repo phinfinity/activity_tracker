@@ -8,10 +8,11 @@ This is an activity tracker extension for Chromium. It logs Web usage for time c
 CHANGELOG
 ---------
 
-Version 1.1
-Fixed some bugs:
-	* Duplicated time logging for multiple windows
-	* Stopped time logging when window out of focus.
+**Version 1.1**  
+Fixed some bugs:   
 
-Version 1.0
+* Duplicated time logging for multiple windows  
+* Stopped time logging when window out of focus.  
+
+**Version 1.0**  
 Basic functionality added
