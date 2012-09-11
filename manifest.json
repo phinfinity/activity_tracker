@@ -1,0 +1,16 @@
+{
+  "name": "WebSite Activity Timer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This Extension Monitors Time spent on different web sites",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+  "browser_action": {
+      "default_title": "This is the Browser action title",
+      "default_icon": "icon.png",
+      "name": "Do something",
+      "default_popup": "popup.html"
+  }
+}
